@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+        <title>Caesar Cipher Encoder/Decoder</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <main>
+            <div id="app">
+              <h1 id="title">Caesar's Cipher</h1>
+              <p id="instructions">Enter your text to encode/decode and select the shift number.</p>
+              <div id="form">
+                <input id="input" type="text" placeholder="Enter text here." oninput="resetResults()"></input>
+                <input id="shift-num" type="number" placeholder="Shift" min="1" max="25"></input>
+                <button id="encode" onclick="displayResults(1)">Encode</button>
+                <button id="decode" onclick="displayResults(-1)">Decode</button>
+            </div>
+          
+              <h2 id="results-title">Results: </h2>
+              <div id="results-container">
+                <p id="results">See your message here.</p>
+              </div>
+            </div>
+          </main>
+          <footer>
+            <p id="footer-text">Created by C McLellan</p>
+          </footer>
+          <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

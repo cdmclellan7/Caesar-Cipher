@@ -1,0 +1,43 @@
+html {
+    height: 100vh;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/1/13/Julius_Caesar_Coustou_Louvre.png") no-repeat bottom right, radial-gradient(white,pink, orange);
+    background-size: 50vh, cover; 
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  #app {
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px 80px 10px 80px;
+  }
+  
+  h1, h2 {
+    font-family: 'Cinzel Decorative', cursive;
+  }
+  
+  #results-container {
+    max-height: 40vh;
+    overflow: auto;
+  }
+  
+  #results {
+    font-family: monospace;
+    max-width: 400px;
+  }
+  
+  footer {
+    font-family: helvetica;
+    color: white;
+    text-shadow: 2px 2px lightgreen;
+  }
+  
